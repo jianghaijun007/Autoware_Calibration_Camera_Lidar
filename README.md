@@ -3,10 +3,10 @@ This is the calibration toolkit seperated from Autoware.
 ## Environment
 Ubuntu 18.04 and Ros-melodic
 ## Installation
-1. Install the **nlopt**: https://github.com/stevengj/nlopt
-2. Compile the file<br />
+1. Install the **nlopt**: `https://github.com/stevengj/nlopt`
+2. Compile the file:
    ```
-   git clone https://github.com/JunzWu/Autoware_Calibration_Camera_Lidar.git
+   git clone git@github.com:jianghaijun007/Autoware_Calibration_Camera_Lidar.git
    cd Autoware_Calibration_Camera_Lidar
    mkdir build
    mkdir devel
@@ -18,7 +18,7 @@ Ubuntu 18.04 and Ros-melodic
    ```
    rosbag play bagName.bag /YourPointCloud2Topic:=/points_raw
    ```
- 
+
 3. Open the toolkit
    ```
    source devel/setup.bash
@@ -33,4 +33,4 @@ The CalibrationToolkit_Manual.pdf is uploaded which also include the calibration
 **Remember to stay in Mode 1 after pressing the grab button, if you cannot extract the plane of the board, press "↑ ↓ ← →" to adjust the postion.**
 
 ## Reference
-https://github.com/XidianLemon/calibration_camera_lidar
+https://github.com/JunzWu/Autoware_Calibration_Camera_Lidar
